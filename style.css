@@ -1,0 +1,60 @@
+.grid-container-2{
+    display: grid;
+    height: 100vh;
+    width: 100vw;
+    grid-template-columns: auto auto auto ;
+    grid-template-rows: 90px 3fr 2fr 1fr;
+    gap: 10px;
+    padding: 5px;
+    background-color: rgb(217, 226, 208);
+    border: 1px solid rgb(29, 28, 28);
+    padding-top: 30px;
+
+}
+
+.grid-container-2 > div{
+    background-color: rgb(154, 178, 245);
+    text-align: center;
+    padding: 10px 0px;
+    font-size: 25px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.itemG2-1{
+    grid-column: 1/4 ;
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.vVxdXdP5uhpgLh8QHIw7oAHaEo%26pid%3DApi&f=1);
+    opacity: 90%;
+    padding: 0px;
+    
+    height: 70px;
+    
+
+}
+.itemG2-1 > p{
+    font-size: 20px;
+    font-weight: 800;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(223, 6, 24);
+    opacity: 100%;
+    text-align: left;display: inline;
+}
+.itemG2-2{
+    grid-row: 2/5;
+    opacity: 50%;
+    background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.UQ2IHwwlbzPYZGuJt91qLQAAAA%26pid%3DApi&f=1');
+}
+.itemG2-3{
+    grid-row: 2/4;
+}
+.itemG2-3 > p{
+    font-size: 10px;
+    flex-wrap: wrap;
+    color: blue;
+}
+.itemG2-4{
+    grid-area: ;
+}
+.itemG2-2{
+
+}
+
